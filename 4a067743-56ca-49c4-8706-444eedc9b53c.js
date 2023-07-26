@@ -1,4 +1,4 @@
-// ========== Matomo ==========
+// ========== Analytics ==========
 var _paq = window._paq = window._paq || [];
 /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
 _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
@@ -12,7 +12,7 @@ _paq.push(['enableLinkTracking']);
   g.async=true; g.src='//cdn.matomo.cloud/leadbright1.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
 })();
 
-// ========== Mouseflow ==========
+// ========== UX ==========
 window._mfq = window._mfq || [];
 (function() {
   var mf = document.createElement("script");
